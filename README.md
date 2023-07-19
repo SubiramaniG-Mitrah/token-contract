@@ -1,5 +1,3 @@
-markdown
-Copy code
 # ERC-20 Token Contract
 
 This repository contains a basic ERC-20 token contract built using OpenZeppelin.
@@ -38,21 +36,21 @@ Run the tests to ensure everything is working correctly:
 ```bash
 npx hardhat test
 ```
-Deploying the Contract Locally
+## Deploying the Contract Locally:
 Deploy the contract to your local Hardhat network:
 ```bash
 npx hardhat run --network localhost ./scripts/deploy.js
 ```
-Copy the contract address displayed in the terminal.
 
-Update the tokenContractAddress variable in the ethers-scripts.js file located in the front-end folder with the copied contract address.
+### Could be optional:
+ - Copy the contract address displayed in the terminal.
+ - Update the tokenContractAddress variable in the front-end/ethers-scripts.js.
 
-Interacting with the Contract
-Open the index.html file, which is located in the front-end folder, in your browser.
+### Interacting with the Contract
+ - Open the index.html file, which is located in the front-end folder, in your browser.
+ - You can now start interacting with the ERC-20 token contract. The first Hardhat address will be the primary holder.
 
-You can now start interacting with the ERC-20 token contract. The first Hardhat address will be the primary holder.
-
-# Additional Notes:
+## Additional Notes:
  - The contract is deployed on a local Hardhat network for testing and development purposes.
  - The front-end provides a user interface to test the contract functionalities.
 
