@@ -1,8 +1,10 @@
 // Configure Ethers.js
-provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/");
+// const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/");
+const provider = new ethers.providers.JsonRpcProvider(`https://goerli.infura.io/v3/`);
 const signer = provider.getSigner();
 
-const tokenContractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
+// const tokenContractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
+const tokenContractAddress = '0x7E212b6987513a7c63840C8f9BF15675b90Fa0F2';
 
 // Create the TokenContract instance
 const tokenContract = new ethers.Contract(tokenContractAddress, tokenContractABI, signer);
