@@ -27,6 +27,10 @@ Start the Hardhat server:
 npx hardhat node
 ```
 In another terminal, compile the contracts:
+Change into the project directory:
+```bash
+cd token-contract/erc20-openzeppelin
+```
 ```bash
 npx hardhat compile
 ```
