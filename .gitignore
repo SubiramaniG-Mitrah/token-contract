@@ -7,6 +7,18 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+*.lock
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
