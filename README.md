@@ -57,7 +57,7 @@ npx hardhat run --network localhost ./scripts/deploy.js
 ```
 
 ## Additional Notes:
- - The contract is deployed on a local Hardhat network for testing and development purposes.
+ - The contract could be deployed on a local Hardhat network for testing and development purposes.
  - The front-end provides a user interface to test the contract functionalities.
 
 Happy token contract testing! 🚀
